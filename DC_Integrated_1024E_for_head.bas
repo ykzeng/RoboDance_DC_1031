@@ -10673,22 +10673,23 @@ donation_ceremony_2_1:
 
         DELAY 2200
 
-        SPEED 7
+        SPEED 10
 
     
     	FOR I = 1 TO 5
 
-        MOVE G6D,  72,  89, 120, 103, 142,
-        MOVE G6A,  99,  96, 111, 107,  82,
-        MOVE G6B,  13, 190, 136,  ,  ,
-        MOVE G6C,  13, 188, 140,  ,  ,
-        WAIT
+        '±ßÅ¤Æ¨¹É±ß°ÚÊÖ
+        MOVE G6A,  99,  96, 111, 107,  82,  
+		MOVE G6D,  72,  89, 120, 103, 142,  
+		MOVE G6B, 112, 138, 149,  ,  ,  
+		MOVE G6C,  94,  78,  54,  ,  ,  
+		WAIT
         
-        MOVE G6A, 72,  89, 120, 103, 142,
-        MOVE G6D,  99,  96, 111, 107,  82,
-        MOVE G6B,  13, 190, 136,  ,  ,
-        MOVE G6C,  13, 188, 140,  ,  ,
-        WAIT
+        MOVE G6A,  72,  89, 120, 103, 142,  
+		MOVE G6D,  99,  96, 111, 107,  82,  
+		MOVE G6B, 106,  82,  59,  ,  ,  
+		MOVE G6C, 105, 131, 142,  ,  ,  
+		WAIT
         NEXT I
 
 
@@ -10699,7 +10700,7 @@ donation_ceremony_2_1:
         WAIT
         
               
-        SPEED 7
+        SPEED 8
         MOVE G6A,  94,  75, 143,  93, 108,
     	MOVE G6D,  94,  75, 143,  93, 108,
     	MOVE G6B,  13, 190, 136,  ,  ,
@@ -10868,7 +10869,14 @@ donation_ceremony_2_1:
     MOVE G6B, 188,  91,  72,  ,  ,
     MOVE G6C, 188,  91,  76,  ,  ,
     WAIT
-
+'=====================================
+    SPEED 8
+    MOVE G6A, 102, 102,  90, 117,  99,  
+	MOVE G6D,  99, 105,  90, 114,  99,  
+	MOVE G6B, 102,  23,  86,  ,  ,  
+	MOVE G6C,  97,  33,  82,  ,  ,  
+   '=====================================
+   
     DELAY 400
     'dunqi
     SPEED 7

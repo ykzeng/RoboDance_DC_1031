@@ -10672,22 +10672,23 @@ donation_ceremony_2_1:
 
         DELAY 2200
 
-        SPEED 7
+        SPEED 10		
 
     
     	FOR I = 1 TO 5
 
-        MOVE G6D,  72,  89, 120, 103, 142,
-        MOVE G6A,  99,  96, 111, 107,  82,
-        MOVE G6B,  13, 190, 136,  ,  ,
-        MOVE G6C,  13, 188, 140,  ,  ,
-        WAIT
+        '边扭屁股边摆手
+        MOVE G6A,  99,  96, 111, 107,  82,  
+		MOVE G6D,  72,  89, 120, 103, 142,  
+		MOVE G6B, 112, 138, 149,  ,  ,  
+		MOVE G6C,  94,  78,  54,  ,  ,  
+		WAIT
         
-        MOVE G6A, 72,  89, 120, 103, 142,
-        MOVE G6D,  99,  96, 111, 107,  82,
-        MOVE G6B,  13, 190, 136,  ,  ,
-        MOVE G6C,  13, 188, 140,  ,  ,
-        WAIT
+        MOVE G6A,  72,  89, 120, 103, 142,  
+		MOVE G6D,  99,  96, 111, 107,  82,  
+		MOVE G6B, 106,  82,  59,  ,  ,  
+		MOVE G6C, 105, 131, 142,  ,  ,  
+		WAIT
         NEXT I
 
 
@@ -10698,7 +10699,8 @@ donation_ceremony_2_1:
         WAIT
         
               
-        SPEED 7
+        SPEED 8
+        
         MOVE G6A,  94,  75, 143,  93, 108,
     	MOVE G6D,  94,  75, 143,  93, 108,
     	MOVE G6B,  13, 190, 136,  ,  ,
@@ -10925,7 +10927,7 @@ group3:
     MOVE G6B,170, 100, 100
     MOVE G6C,170, 100, 100
     WAIT
-    DELAY 5000
+    DELAY 4000
 
     'FEIXIAMG *4
 	FOR I = 0 TO 3
@@ -11168,7 +11170,7 @@ opendance:
 	MOVE G6B, 102,  37, 104,  ,  ,  
 	MOVE G6C, 102,  37, 104,  ,  ,  
 	WAIT
-	
+	' 99 越小转的角度越大
 	MOVE G6A, 99,  31, 129, 159,  96,  
 	MOVE G6D, 103, 132, 135,  47, 103,  
 	MOVE G6B, 102,  37, 104,  ,  ,  
